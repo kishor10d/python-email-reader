@@ -13,10 +13,13 @@ You can find the configuration in ```core/config.py``` file.
 ### Database Migration
 There is table named ```email_store``` is expected to create before executing the application.
 So execute below mentioned command before executing the main application, so that the table will be created automatically in the database.
+
 ```python init_db.py```
 
 ### Application Execution
-You can run this application from command line: ```python main.py```
+You can run this application from command line: 
+
+```python main.py```
 
 ### Dependency - Libraries
 The below mentioned libraries are present in ```requirements.txt``` file.
